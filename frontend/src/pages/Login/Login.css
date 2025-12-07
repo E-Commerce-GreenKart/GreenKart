@@ -1,4 +1,6 @@
-/* Center the login box */
+/* ===========================
+   Center the Login Box
+=========================== */
 .login-container {
   height: 100vh;
   background: #f4f4f4;
@@ -7,7 +9,9 @@
   align-items: center;
 }
 
-/* Login card box */
+/* ===========================
+   Login Card
+=========================== */
 .login-box {
   width: 340px;
   padding: 30px;
@@ -22,7 +26,9 @@
   color: #333;
 }
 
-/* Input fields */
+/* ===========================
+   Input Fields
+=========================== */
 .input-group {
   margin-bottom: 15px;
   display: flex;
@@ -41,7 +47,9 @@
   font-size: 15px;
 }
 
-/* Login button */
+/* ===========================
+   Login Button
+=========================== */
 .login-btn {
   width: 100%;
   padding: 12px;
@@ -52,13 +60,16 @@
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .login-btn:hover {
   background-color: #43a047;
 }
 
-/* Signup link */
+/* ===========================
+   Signup Link
+=========================== */
 .signup-text {
   margin-top: 15px;
   text-align: center;
